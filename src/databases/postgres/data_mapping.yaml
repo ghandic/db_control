@@ -1,0 +1,40 @@
+hive:
+  bigint: BIGINT
+  bigserial: BIGINT
+  bit: BINARY
+  bit varying: BINARY
+  boolean: BOOLEAN
+  box: STRING
+  bytea: STRING
+  character: STRING
+  character varying: STRING
+  cidr: STRING
+  circle: STRING
+  date: DATE
+  double precision: DOUBLE
+  inet: STRING
+  integer: INT
+  interval: INTERVAL
+  json: STRING
+  line: STRING
+  lseg: STRING
+  macaddr: STRING
+  money: STRING
+  numeric: DECIMAL
+  path: STRING
+  point: STRING
+  polygon: STRING
+  real: FLOAT
+  smallint: SMALLINT
+  smallserial: SMALLINT
+  serial: INT
+  text: STRING
+  time without time zone: TIMESTAMP
+  time with time zone: TIMESTAMP
+  timestamp without time zone: TIMESTAMP
+  timestamp with time zone: TIMESTAMP
+  tsquery: STRING
+  tsvector: STRING
+  txid_snapshot: STRING
+  uuid: STRING
+  xml: STRING

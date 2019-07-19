@@ -1,0 +1,19 @@
+source:
+  id: YA0742
+  name: Yammer
+  database:
+    type: postgres
+    version: "11.4"
+objects:
+  - schema: public
+    table: comments
+    zone: AUS
+    region: MEL
+  - schema: public
+    table: users
+    zone: AUS
+    region: MEL
+  - schema: public
+    table: posts
+    zone: AUS
+    region: MEL
